@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/icon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Priyadarshini Ramakrishnan | Big Data Engineer.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Python, ETL, Spark, SQL, AWS, Azure, Tableau" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Priya Ramakrishnan</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Big Data Engineer and Cloud Architect<br> MS Computer Science ASU 24'</p>
+        <a href="#contact" class="btn btn--pink" style="color:rgba(1, 40, 83, 0.798);">Get in touch</a><br><br><br>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2 style="color: rgba(1, 40, 83, 0.798);font-size: 45px;">My Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Predicting Customer Churn using Random Forest in Python</h3>
+              <p> A Random Forest model forecasted customer churn, 
+                informed by EDA. Python libraries aided preprocessing and visualization. 
+                Hyperparameter tuning optimized performance. Evaluation metrics guided assessment. 
+                Insights drove actionable retention strategies from predictions.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Pandas & NumPy</li>
+                <li>matplotlib & seaborn</li>
+                <li>EDA & Hyperparameter tuning</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/predicting_customer_churn" class="link__text" style="font-size: 20px;">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/predicting_customer_churn">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p2.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Twitter Sentiment Analysis</h3>
+              <p>
+                Implemented Twitter sentiment analysis project in Aug 2023. Developed classifier model for sentiment analysis 
+                of tweets based on specified keyword. Utilized Twitter API for data retrieval. Built NLP engine in Python for 
+                sentiment analysis.Conducted rigorous testing for accuracy. Provided insights and visualizations based on 
+                sentiment analysis results.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>NLTK</li>
+                <li>Tweepy</li>
+                <li>Scikit-learn</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/twitter_sentiment_analysis" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/twitter_sentiment_analysis">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p5.jpeg" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Developing an Elastic Web application using AWS</h3>
+              <p>
+                Developed a scalable web app leveraging AWS IaaS resources for image recognition. 
+                Deep learning algorithms analyze user-provided images, delivering efficient and accurate image recognition services.
+              </p>
+              <ul class="work__list">
+                <li>AWS</li>
+                <li>Python(Boto3 & Flask)</li>
+                <li>PyTorch</li>
+                <li>AWS S3</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/Elastic-WebApp-using-AWS" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/Elastic-WebApp-using-AWS">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p8.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Distributed E-commerce Database: PostreSQL</h3>
+              <p>
+                Designed and implemented a distributed database system for e-commerce, 
+                ensuring real-time updates and queries with data consistency and availability. 
+                Utilized technologies like sharding, replication, and distributed consensus algorithms 
+                for scalability and reliability.
+              </p>
+              <ul class="work__list">
+                <li>Python(SqlAlchemy)</li>
+                <li>Apache Ignite</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/Distributed-Ecommerce-Database" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/Distributed-Ecommerce-Database">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p6.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Credit Card Fraud Detection for imabalanced dataset</h3>
+              <p>
+                This project detects credit card fraud using binary classification algorithms on a highly imbalanced dataset. 
+                Comprehensive preprocessing and balancing techniques are outlined in the report, resulting 
+                in models achieving 100% accuracy.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Imbalanced-learn</li>
+                <li>Ensemble learning models</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/EnsembleLearning-DetectCreditCardFraud" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/EnsembleLearning-DetectCreditCardFraud">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p7.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Smart Classroom assistant using AWS Lambda</h3>
+              <p>
+                This cloud app deploys a smart classroom assistant, utilizing face recognition on classroom videos to
+                retrieve academic data of recognized students from the database, enhancing educator efficiency and engagement.
+              </p>
+              <ul class="work__list">
+                <li>AWS Lambda</li>
+                <li>Python(Boto3)</li>
+                <li>DynamoDB</li>
+                <li>AWS ECR</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/Smart-Classroom-Assistant-AWS-Lambda" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/Smart-Classroom-Assistant-AWS-Lambda">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p9.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <!-- <div class="work__box">
+            <div class="work__text">
+              <h3>* Building a Scalable Data Warehouse with Amazon Redshift</h3>
+              <p>
+                Music Recommendation System.
+              </p>
+              <ul class="work__list">
+                <li>Jupyter notebook</li>
+                <li>Python</li>
+                <li>Scikit-learn</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/MusicRecSYS" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div> -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Building a Scalable Data Warehouse with Amazon Redshift</h3>
+              <p>
+                Built a scalable data warehouse with Amazon Redshift. Configured SQL Workbench, designed 
+                robust architecture, optimized query performance, and implemented automated loading processes for high-speed 
+                analytics with role-based access control.
+              </p>
+              <ul class="work__list">
+                <li>SQL</li>
+                <li>Enterprise Data Warehousing</li>
+                <li>Amazon Redshift</li>
+                <li>ETL/ELT</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/scalable_EDW_Redshift" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/scalable_EDW_Redshift">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p4.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Hybrid Music Recommendation System</h3>
+              <p>Implemented a music recommendation system combining content-based and collaborative filtering methods.Utilized Spotify 
+                Million Song Dataset for content-based recommendations and Million Song Dataset Subset for collaborative filtering.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Scikit-learn</li>
+                <li>EDA and Interpretation</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/MusicRecSYS" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/MusicRecSYS">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p10.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Proposal for a Cloud-Based Inventory Management System</h3>
+              <p>
+                Proposed a cloud-based inventory management system. 
+                Conducted stakeholder and needs analysis, designed UML and ERD diagrams, created wireframes, and presented an implementation plan with KPIs.
+              </p>
+              <ul class="work__list">
+                <li>AWS SDK</li>
+                <li>Python</li>
+                <li>SqlAlchemy</li>
+                <li>Tableau</li>
+                <li>PostgreSQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/AWS_based_inventory_management" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/AWS_based_inventory_management">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p1.jpg" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Descriptive Analysis of Sales Data</h3>
+              <p>
+                Performed descriptive analysis of sales data. Merged quarterly datasets in SAS, cleaned data for accuracy,
+                 and generated detailed analytics report on sales performance, revealing key metrics and trends.
+              </p>
+              <ul class="work__list">
+                <li>SAS</li>
+                <li>Tableau</li>
+                <li>SQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/priyaavijay/Analysing_Sales_Data" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/priyaavijay/Analysing_Sales_Data">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/p3.jpg" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2 style="color: rgba(1, 40, 83, 0.798)";>Associations</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/tcs.png" class="client__logo" alt="Company 2" />
+          <img src="./images/svb.png" class="client__logo" alt="Company 3" />
+          <img src="./images/asu.png" class="client__logo" alt="Company 1" />
+          <img src="./images/edp.png" class="client__logo" alt="Company 1" />
+          <!-- <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" /> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2 style="color: rgba(1, 40, 83, 0.798)">About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p style="color: rgba(22, 51, 79, 0.808);">
+              I’m a data engineer with about 4 years of experience wrangling data!  
+              I love building data pipelines and warehouses to help businesses unlock the secrets
+               hidden in their information.  My skills range from coding in Python and SQL 
+               to designing data models and building cloud solutions on AWS.  
+               I’m also a master’s student in Computer Science, 
+               so I can translate business needs into technical solutions.  
+              In my free time, I dabble in machine learning and information security, 
+              but my true passion is using data to make a positive impact.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/1ba1r4eRgTJBI4tfrqpq8nSsOGQYnFy0c/view?usp=sharing" class="btn" style="color: rgba(1, 40, 83, 0.798);">
+              My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" style="border-radius: 100px; width: 500px; height:800px;"  src="./images/priya3.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2 style="color: rgba(1, 40, 83, 0.798);">Get in Touch</h2>
+      <div class="contact__info">
+        <p style="color: rgba(22, 51, 79, 0.808); align-content: center;" >
+          Got data questions or want to chat about building awesome data pipelines? I'd love to hear from you! 😊 
+          Feel free to shoot me an email and I'll get back to you asap.<br> In the meantime, check out my profile for a deeper dive into my 
+          experience with data engineering, business intelligence, and cloud technologies &#9729;.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:pramak10@asu.edu" style="color: rgba(1, 40, 83, 0.798);" class="btn">pramak10@asu.edu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/priyavijaydevan" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/priyaavijay" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/priyaavijay">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
