@@ -15,7 +15,10 @@
     font-weight: 400;
     src: url('./fonts/Jost-Regular.ttf') format('woff');
 }
-
+.work__image {
+    max-width: 100%;
+    height: auto;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -34,19 +37,19 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #727d90;
+    --black: #cef1cba2;
     /* --black: #adabab; */
     /* --pink: #ff3258; */
     /* --pink:#1b85ba; */
     /* --pink:#0fb5e3e8; */
-    --pink:#00a4d2e8;
+    --pink:#20b839c1;
     --white: #f0e9f2;
     /* --white-1: #e5e5e6da; */
     --teal:#008080;
     /* --purple:#1d1160; */
-    --purple:#264771;
+    --purple:#f06f4f;
     /* --dark-cyan:#33006F; */
-    --dark-cyan:#185e83;
+    --dark-cyan:#06840a;
 /* 
     --container-max-width: 1300px;
     --container-normal-width: 800px;
@@ -132,13 +135,13 @@ img {
 }
 .work__image-box img{
     background-blend-mode: multiply;
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(239, 238, 238);
     margin-top: -5px;
     border-radius: 50px; 
 }
-.work__box p{ font-size: 20px; color: white;}
+.work__box p{ font-size: 20px; color: rgb(0, 0, 0);}
 .work__box h3{font-size: 25px; color: rgba(15, 60, 90, 0.878);text-decoration: underline;}
-.work__box ul{font-size: 20px; color: white;}
+.work__box ul{font-size: 20px; color: rgb(11, 5, 59);}
 .work__links{font-size: 20px; color: rgba(16, 60, 117, 0.866);}
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
@@ -190,7 +193,7 @@ h2::after {
     height: 2px;
     width: 10rem;
     /* background: var(--pink); */
-    background:  #00c8ffe8; 
+    background:  #03376ee6; 
     margin: var(--gutter-small) 0;
     vertical-align: bottom; /* Aligns to bottom */
     width: 100%; /* Stretches across the entire h2 */
@@ -451,13 +454,14 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+    background: linear-gradient(rgba(0,0,0, 0.05), rgba(0,0,0, 0.2)), 
         url('./images/bg1.gif');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
+    filter: brightness(1.1);
 }
 
 .header__text {
@@ -640,6 +644,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer__social-image {
     height: 4rem;
+    filter: brightness(0.5);
 }
 
 .footer__github-buttons {
