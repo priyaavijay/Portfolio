@@ -533,6 +533,7 @@ body:not(.user-is-tabbing) a:focus {
     height: 3rem;
     margin-left: var(--gutter-normal);
     transition: all .3s;
+    filter: brightness(0.5);
 }
 
 .work__code:hover {
@@ -564,6 +565,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     justify-content: space-between;
     filter: invert(100%) grayscale(100%) opacity(.8);
+    filter: brightness(0.7);
 }
 
 .client__logo {
