@@ -457,13 +457,17 @@ body:not(.user-is-tabbing) a:focus {
     background: linear-gradient(rgba(0,0,0, 0.05), rgba(0,0,0, 0.2)), 
         url('./images/bg1.gif');
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
     filter: brightness(1.1);
 }
-
+@media(max-width: 768px) { /* Target screens smaller than 768px (typical phone width) */
+    .header {
+        background-size: contain; /* Use contain for phones to avoid cropping */
+    }
+}
 .header__text {
     position: absolute;
     top: 50%;
