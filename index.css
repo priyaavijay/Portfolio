@@ -463,6 +463,11 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-normal);
     filter: brightness(1.1);
 }
+@media(max-width: 768px) { /* Target screens smaller than 768px (typical phone width) */
+    .header {
+        background-size: contain; /* Use contain for phones to avoid cropping */
+    }
+}
 
 .header__text {
     position: absolute;
